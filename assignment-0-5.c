@@ -327,12 +327,25 @@ Design a simple restaurant menu system that takes a customer's
 
 #include<stdio.h>
 int main(){
-  printf("Please Enter your choice \n
-      '1. pizza \n
-       2. burger \n
-       3. choumin \n
-       4.aalu tiki \n
-       5.dossa")
+  int choice ;
+  printf("Please Enter your choice  between 1 2 3 ");
+  scanf("%d",&choice);
+  if(choice==1){
+    printf("--------------list of food item------------------\n \n");
+    printf("1. pizaa   - price-300 \n 2. barger - price-40 \n 3. chaumin - price-70");
+  }else if(choice ==2){
+    printf("---------- list of JUSH item------------------\n \n");
+    printf("1. banana JUSH   - price-30/glass \n 2.mango JUSH - price-40/glass \n 3. papya - price-70/glass");
+    
+  }else if(choice ==3){
+       printf("--------------list of favriout clouth item----------------\n \n");
+    printf("1. t-shirt   - price-300 \n 2. shirt - price-400 \n 3. Gins - price-700");
+  }else{
+      printf("input is invaild please try agine....");
+     
+  }return 0;
+  }
+    
   printf("Please Enter the current Time....");
   scanf("%d",&time);
   if(time>= 5 && time<=12){
