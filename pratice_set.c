@@ -1,77 +1,242 @@
 
-/// leap year checks 
-
 #include <stdio.h>
 
 int main()
 {
-    int year;
-    printf("please enter the year to identify year is leap or not \n");
-    scanf("%d",&year);
-   if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
-   printf("this is year is leap %d",year);
-    }else{
-        printf("this year is not leap year %d", year);
-    
+   
+   for(int i =1;i<=6;i++){
+       for(int s=6; s>=i;s--){
+           printf(" ");
+       }
+       for(int j = 1; j<=i;j++){
+           printf("* ");
+       }
+       printf("\n");
+   }
+   for(int i=1 ; i<=5;i++){
+       for(int j =1; j<=12;j++){
+           if(i==1 || j==1 || i==5 || j==12){
+               printf("*");
+           }
+           else{
+               printf(" ");
+           }
+       }
+       printf("\n");
+   }
 
     return 0;
-    }
 }
-
-/// sum of the natural numbers
-
-#include <stdio.h>
-
-int main()
-{
-    int num;
-    printf("please enter the number of the natural number \n");
-    scanf("%d",&num);
-    int sum = (num *(num+1))/2;
-   printf("this is year is natural number sum %d",sum);
-    
-    return 0;
-    
-}
-// factorial numbers
-
-
-
 
 
 #include <stdio.h>
 
 int main()
 {
-    int days, year,weeks;
-    printf("enter the days");
-    scanf("%d",&days);
-    year = days/365;
-    weeks = (days/365)/7;
-    
-    days = days-((year * 365)+ (weeks*7));
-    printf("year :%d ",year);
-        printf("weeks :%d ",weeks);
-    printf("days- :%d ",days);
+   
+   for(int i =1;i<=6;i++){
+       for(int s=6; s>=i;s--){
+           printf(" ");
+       }
+       for(int j = 1; j<=i;j++){
+           printf("* ");
+       }
+       printf("\n");
+   }
+   for(int i=1 ; i<=5;i++){
+       for(int j =1; j<=12;j++){
+           if(i==1 || j==1 || i==5 || j==12){
+               printf("*");
+           }
+           else{
+               printf(" ");
+           }
+       }
+       printf("\n");
+   }
 
-    
     return 0;
 }
 
 
+
+
+      * 
+     * * 
+    * * * 
+   * * * * 
+  * * * * * 
+ * * * * * * 
+************
+*          *
+*          *
+*          *
+************
+
+
+
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
 #include <stdio.h>
-int main(){
-    int second,h,m,s;
-    printf("enter the second");
-    scanf("%d",&second);
-    h = second/3600;
-  
-    m= second/60;
-    s= second%60;
-    printf(" hours %d",h);
-    printf(" mints %d",m);
-    printf(" second %d",s);
+
+int main()
+{
+   
+   for(int i =1;i<=6;i++){
+       for(int s=6; s>=i;s--){
+           printf(" ");
+       }
+       for(int j = 1; j<=i;j++){
+      
+           printf("* ");
+          
+       }
+       printf("\n");
+   }
+  for(int i=1 ; i<=8;i++){
+      for(int j =1; j<=12;j++){
+          if(i==1 || j==1 || i==8 || j==12 || j==3 || j==5){
+              printf("*");
+          }
+          else{
+              printf(" ");
+          }
+      }
+      printf("\n");
+  }
+
     return 0;
 }
 
 
+
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+   
+   for(int i =1;i<=6;i++){
+       for(int s=6; s>=i;s--){
+           if(s==i || s>=6 | s<=4){
+           printf(" ");
+           }
+       }
+       for(int j = 1; j<=i;j++){
+          
+           printf("* ");
+          
+       }
+       printf("\n");
+   }
+  for(int i=1 ; i<=8;i++){
+      for(int j =1; j<=12;j++){
+          if(i==1 || j==1 || i==5 || j==12 ){
+              for(int l=1 ; l<=2; l++){
+                  for(int k =1 ;k <=2; k++){
+                    printf(" *");  
+                  }
+                  
+              }
+           
+          }
+          else{
+              printf(" ");
+          }
+      }
+      printf("\n");
+  }
+
+    return 0;
+}
+    * 
+    * * 
+   * * * 
+  * * * * 
+  * * * * * 
+ * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * *           * * * *
+ * * * *           * * * *
+ * * * *           * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * *           * * * *
+ * * * *           * * * *
+ * * * *           * * * *
+
+
+
+
+
+
+ /******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+   
+   for(int i =1;i<=6;i++){
+       for(int s=6; s>=i;s--){
+           if(s==i || s>5 | s<=4){
+           printf(" ");
+           }
+       }
+       for(int j = 1; j<=i;j++){
+          
+           printf("* ");
+          
+       }
+       printf("\n");
+   }
+  for(int i=1 ; i<=8;i++){
+      for(int j =1; j<=12;j++){
+          if(i==1 || j==1 || i==8 || j==12  || j==2 || i==7 || j==11){
+              printf("*");
+          }
+          else{
+              printf(" ");
+          }
+      }
+      printf("\n");
+  }
+
+    return 0;
+}
+
+
+    * 
+    * * 
+   * * * 
+  * * * * 
+  * * * * * 
+ * * * * * * 
+************
+**        **
+**        **
+**        **
+**        **
+**        **
+************
+************

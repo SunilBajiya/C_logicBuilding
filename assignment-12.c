@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 int main()
 {
@@ -706,13 +704,78 @@ int main()
      return 0;
 
 }
-
-
 *234*
 1*3*5
 12*45
 1*3*5
 *234*
+
+
+#include<stdio.h>
+int main(){
+    int x=1;
+   for(int i=1;i<=5;i++){
+    for(int j=1;j<=5;j++){
+    
+    if(i+j==5+1){
+        printf("*");
+    }else{
+        printf("%d ",x);
+       
+    }
+     x++;
+    }
+     
+    printf("\n");
+   }
+ return 0;
+}
+
+
+
+1 2 3 4 *
+6 7 8 *10 
+11 12 *14 15 
+16 *18 19 20 
+*22 23 24 25
+
+
+
+#include<stdio.h>
+int main(){
+    int x=1;
+   for(int i=1;i<=5;i++){
+    for(int j=1;j<=5;j++){
+    
+    if(i+j==5+1 || i==j){
+        printf("* ");
+    }else{
+        printf("%d ",x);
+       
+    }
+     x++;
+    }
+     
+    printf("\n");
+   }
+ return 0;
+}
+
+
+* 2 3 4 * 
+6 * 8 * 10 
+11 12 * 14 15 
+16 * 18 * 20 
+* 22 23 24 * 
+
+
+
+
+
+
+
+
+
 
 
 
